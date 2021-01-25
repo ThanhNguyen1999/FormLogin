@@ -1,0 +1,55 @@
+body{
+      display: grid;
+}
+
+.header{
+  display: inline;
+}
+.header .right{
+  float: right;
+  padding: 20px 100px;
+}
+.header .left{
+  float:left;
+  font-size: 15px;
+  
+}
+.header .left h4{
+  margin: 0px;
+  padding: 20px 100px;
+}
+.main h1{
+  text-align: center;
+}
+.main form{
+  text-align: center;
+      display: block;
+
+}
+.main form h5{
+  padding: 0px 170px 0px 0px;
+  margin: 12px;
+}
+#input_1{
+      padding: 10px 36px;
+}
+#input_2{
+      padding: 10px 36px;
+}
+#button{
+  padding: 10px 60px;
+    color: white;
+    background-color:blue;
+}
+#button:hover{
+  color: white;
+  background-color: red;
+}
+#a{
+  display: block;
+      text-align: center;
+          margin: 14px;
+          text-decoration: none;
+              color: blue;
+
+}
